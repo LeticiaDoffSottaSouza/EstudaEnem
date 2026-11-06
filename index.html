@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#102b53">
+  <title>Estuda ENEM</title>
+  <link rel="icon" type="image/png" href="assets/logo2.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body data-page="inicio">
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        Estuda <strong>ENEM</strong>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-controls="nav"
+        aria-expanded="false"
+      >☰</button>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <a class="nav-link active" href="index.html" aria-current="page">
+          Início
+        </a>
+        <a class="nav-link" href="provas.html">Provas</a>
+        <a class="nav-link" href="questoes.html">Questões</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="home-main">
+    <section class="home container">
+      <div class="home-content">
+        <span class="eyebrow">VAMOS ESTUDAR?</span>
+
+        <h1>Um lugar para sua preparação.</h1>
+
+        <p class="home-description">
+          Resolva questões do ENEM, confira suas respostas e
+          pratique no seu ritmo.
+        </p>
+
+        <div class="home-actions">
+          <a class="btn btn-primary" href="provas.html">
+            Explorar provas <span aria-hidden="true">↗</span>
+          </a>
+
+          <a class="btn btn-lavender" href="questoes.html">
+            Escolher uma matéria
+          </a>
+        </div>
+
+        <p class="home-message">
+          Não precisa acertar tudo hoje. O importante é continuar aprendendo.
+        </p>
+      </div>
+
+      <div class="home-identity">
+        <div class="logo-frame">
+          <img
+            class="home-logo"
+            src="assets/logo.png"
+            alt="Logo Estuda ENEM"
+          >
+        </div>
+
+        <span class="identity-caption">SEU ESPAÇO DE ESTUDOS</span>
+      </div>
+    </section>
+
+    <section class="study-note">
+      <div class="container study-note-inner">
+        <div>
+          <span class="section-kicker">COMO VOCÊ PREFERE PRATICAR?</span>
+          <h2>Uma prova inteira ou uma matéria por vez.</h2>
+        </div>
+
+        <p>
+          Em <a href="provas.html">Provas</a>, escolha uma edição.
+          Em <a href="questoes.html">Questões</a>, pratique por área de conhecimento.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>Estuda ENEM</span>
+      <span>Questões de provas anteriores · Dados: enem.dev</span>
+    </div>
+  </footer>
+</body>
+
+</html>
